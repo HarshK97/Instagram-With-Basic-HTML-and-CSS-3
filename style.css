@@ -140,15 +140,14 @@
 }
 
 .main-content {
-    flex-grow: 2; /* Allow "main-content" to take up available space */
-    justify-content: center; /* Center content horizontally within "main-content" */
+    flex-grow: 2; 
+    justify-content: center; 
     height: 100vh;
-    /* width: 255px; */ /* You can remove this line to allow "main-content" to take available width */
 }
 .story-img{
-    display: flex; /* Create a flex container for the images */
-    gap: 20px; /* Add some spacing between images */
-    align-items: center; /* Center the images vertically */
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
     justify-content: flex-start;
     height: 40px;
     margin-top: 60px;
@@ -157,13 +156,13 @@
 }
 
 .story-img span {
-    flex: 0 0 auto; /* Prevent images from growing/shrinking */
+    flex: 0 0 auto; 
 }
 
 .story-img img {
     height: 60px;
-    border: 3px solid orange; /* Add a border around the images */
-    border-radius: 50%; /* Create a circular shape for the images */
+    border: 3px solid orange;
+    border-radius: 50%; 
 }
 
 .story-tag{
