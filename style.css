@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100vh;
+}
+
+.left-side{
+    flex-basis: 16%;
+    border-right:1px solid rgba(50, 50, 50, 0.5);
+    align-self: flex-start;
+}
+
+.left-side img{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+
+.left-side ul{
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 20px;   
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.left-side ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.left-side ul li i{
+    padding-right: 10px;
+    width: 30px;
+    
+}
+.left-side ul li img{
+    padding-right: 10px;
+    width: 32px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 25%;
+    height: 100vh;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 14px;
+    width: 80%;
+}
+.profile img{
+    border-radius: 50%;
+    height: 40px;
+    margin: 10px;
+}
+.tag{
+    font-weight: bold;
+    margin-right: 90px;
+    cursor: pointer;
+}
+.username{
+    color: grey;
+    margin-right: 90px;
+}
+.switch{
+    text-decoration: none;
+    color: rgb(57, 63, 217);
+}
+
+.suggestions{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.suggestions-title{
+    margin-left: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.see-all{
+    margin-left: 93px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.member-img{
+    border-radius: 50%;
+    width: 50px;
+}
+.member-tag{
+    font-weight: bold;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.follow{
+    color: rgb(57, 63, 217);
+    cursor: pointer;
+    margin-left: 90px;
+}
+#follow-2{
+    margin-left: 95px;
+}
+
+.story{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-content {
+    flex-grow: 2; /* Allow "main-content" to take up available space */
+    justify-content: center; /* Center content horizontally within "main-content" */
+    height: 100vh;
+    /* width: 255px; */ /* You can remove this line to allow "main-content" to take available width */
+}
+.story-img{
+    display: flex; /* Create a flex container for the images */
+    gap: 20px; /* Add some spacing between images */
+    align-items: center; /* Center the images vertically */
+    justify-content: flex-start;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.story-img span {
+    flex: 0 0 auto; /* Prevent images from growing/shrinking */
+}
+
+.story-img img {
+    height: 60px;
+    border: 3px solid orange; /* Add a border around the images */
+    border-radius: 50%; /* Create a circular shape for the images */
+}
+
+.story-tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 100px;
+    gap: 20px;
+    cursor: pointer;
+}
+.story-tag p{
+    /* margin-right: 20px; */
+    font-size: 12px;
+}
+
+#member-6{
+    margin-left: 6px;
+}
+#member-7{
+    margin-left: 11px;
+}
+#member-8{
+    margin-left: 9px;
+}
+#member-9{
+    margin-left: 5px;
+}
+
+.post{
+    border: 2px solid black;
+    height: 100vh;
+}
+.post-top{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.post-top img{
+    height: 30px;
+    border-radius: 50%;
+}
+.post-top p{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#post-time{
+    color: grey;
+}
+.post-top i{
+    margin-left: 250px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.post-body{
+    border: 1px solid grey;
+    width: 450px;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.post-body img{
+    height: 450px;
+    width: 450px;
+}
+.post-bottom{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.fa-comment, .fa-paper-plane{
+    margin-left: 10px;
+}
+.fa-bookmark{
+    margin-left: 280px;
+}
